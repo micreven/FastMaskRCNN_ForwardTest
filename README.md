@@ -36,7 +36,7 @@ root/
 │   │   └── ......
 │   └── ......
 │
-└── output/mask_rcnn/
+├── output/mask_rcnn/
 │   ├── checkpoint
 │   ├── coco_resnet50_model.ckpt-2499999.data-00000-of-00001
 │   ├── coco_resnet50_model.ckpt-2499999.index
@@ -59,3 +59,4 @@ file_pattern = 'jpg'    # or 'png'
 ## Acknowledgment
 - The `./forward_test/forward_test_single_image.py` is modified from the original `./train/train.py` from [FastMaskRCNN](https://github.com/CharlesShang/FastMaskRCNN)
 - The `./libs/visualization/pil_utils.py` is modified from [@chen1005](https://github.com/CharlesShang/FastMaskRCNN/issues/26#issuecomment-319184033)'s suggestion
+- The pre-trained Mask-RCNN model from [@QtSignalProcessing](https://github.com/CharlesShang/FastMaskRCNN/issues/107#issuecomment-325446700)
