@@ -1,0 +1,2 @@
+model_checkpoint_path: "coco_resnet50_model.ckpt-2499999"
+all_model_checkpoint_paths: "coco_resnet50_model.ckpt-2499999"
