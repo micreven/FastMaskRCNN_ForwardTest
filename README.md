@@ -19,7 +19,7 @@ This is a __forward test__ script of a __single input image__ for the FastMaskRC
 
 ## Getting Start
 1. It requires you to download the whole repo firstly from https://github.com/CharlesShang/FastMaskRCNN
-2. Add the whole `./forward_test` under the root of the repo; then replace the original `./libs/visualization/pil_utils.py` with the new one in my repo. Downloading the 2 pre-trained models above and place them(with the `./output/mask_rcnn/checkpoint`) as shown below. Finally the folder structure would be:
+2. Add the whole `./forward_test` under the root of the repo; then __replace__ the original `./libs/visualization/pil_utils.py` with the new one in my repo. Downloading the 2 pre-trained models above and place them(with the `./output/mask_rcnn/checkpoint`) as shown below. Finally the folder structure would be:
 ```
 root/
 ├── data/pretrained_models/resnet_v1_50.ckpt
@@ -47,7 +47,7 @@ root/
 └── ......
 
 ```
-3. Modify `./libs/nets/pyramid_network.py` according to [Issues#1-F3](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/1#issuecomment-354275222) and [Issues#1-F4](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/1#issuecomment-354277301). Or you can just replace the original one with mine.
+3. Modify original `./libs/nets/pyramid_network.py` according to [Issues#1-F3](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/1#issuecomment-354275222) and [Issues#1-F4](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/1#issuecomment-354277301). Or you can just __replace__ the original one with mine.
 4. Put your test image under `./forward_test/testdata/`
 5. (Optional) If you want to change the output image dir, modify the code `./forward_test/forward_test_single_image.py` at Line30-31
 ```
