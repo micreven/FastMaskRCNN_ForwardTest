@@ -34,6 +34,9 @@ root/
 │   ├── visualization/
 │   │   ├── pil_utils.py
 │   │   └── ......
+│   ├── nets/
+│   │   ├── pyramid_network.py
+│   │   └── ......
 │   └── ......
 │
 ├── output/mask_rcnn/
@@ -44,17 +47,18 @@ root/
 └── ......
 
 ```
-3. Put your test image under `./forward_test/testdata/`
-4. (Optional) If you want to change the output image dir, modify the code `./forward_test/forward_test_single_image.py` at Line30-31
+3. Modify `./libs/nets/pyramid_network.py` according to [Issues#1-F3](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/1#issuecomment-354275222) and [Issues#1-F4](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/1#issuecomment-354277301). Or you can just replace the original one with mine.
+4. Put your test image under `./forward_test/testdata/`
+5. (Optional) If you want to change the output image dir, modify the code `./forward_test/forward_test_single_image.py` at Line30-31
 ```
 save_dir_bbox = 'output/bbox/'
 save_dir_mask = 'output/mask/'
 ```
-5. (Optional) If your test image is in __PNG__ format, modify the code `./forward_test/forward_test_single_image.py` at Line32
+6. (Optional) If your test image is in __PNG__ format, modify the code `./forward_test/forward_test_single_image.py` at Line32
 ```
 file_pattern = 'jpg'    # or 'png'
 ```
-6. run `./forward_test/forward_test_single_image.py` and wait for the result
+7. run `./forward_test/forward_test_single_image.py` and wait for the result
 
 ## Acknowledgment
 - The `./forward_test/forward_test_single_image.py` is modified from the original `./train/train.py` from [FastMaskRCNN](https://github.com/CharlesShang/FastMaskRCNN)
