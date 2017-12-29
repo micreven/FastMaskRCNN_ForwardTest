@@ -64,3 +64,7 @@ file_pattern = 'jpg'    # or 'png'
 - The `./forward_test/forward_test_single_image.py` is modified from the original `./train/train.py` from [FastMaskRCNN](https://github.com/CharlesShang/FastMaskRCNN)
 - The `./libs/visualization/pil_utils.py` is modified from [@chen1005](https://github.com/CharlesShang/FastMaskRCNN/issues/26#issuecomment-319184033)'s suggestion
 - The pre-trained Mask-RCNN model from [@QtSignalProcessing](https://github.com/CharlesShang/FastMaskRCNN/issues/107#issuecomment-325446700)
+
+## To Do
+- Fix the bug of [Issues#1-F8](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/1#issuecomment-354413737)
+- Add [DenseCRF](https://github.com/lucasb-eyer/pydensecrf)
