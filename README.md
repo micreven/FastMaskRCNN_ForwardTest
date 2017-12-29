@@ -8,7 +8,7 @@ This is a __forward test__ script of a __single input image__ for the FastMaskRC
 ## Requirements
 - [Tensorflow (>= 1.0.0)](https://www.tensorflow.org/install/install_linux)
 - [Numpy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
-- [PIL](http://pythonware.com/products/pil/)
+- [PIL (Pillow version = 2.3.0)](http://pythonware.com/products/pil/)
 - [Pre-trained Resnet50](http://download.tensorflow.org/models/resnet_v1_50_2016_08_28.tar.gz)
 - [Pre-trained FastMaskRCNN model](https://drive.google.com/open?id=0B0J4gcV0gfL4U1NadkllSndKbFk) (From: [FastMaskRCNN #107](https://github.com/CharlesShang/FastMaskRCNN/issues/107#issuecomment-325446700))
 
