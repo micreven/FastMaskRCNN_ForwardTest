@@ -2,7 +2,7 @@
 
 This is a __forward test__ script of a __single input image__ for the FastMaskRCNN: https://github.com/CharlesShang/FastMaskRCNN
 
-![Display](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/raw/master/assets/display1.png)
+![Display](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/raw/master/assets/display2.png)
 
 ---
 ## Requirements
