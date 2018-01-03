@@ -4,7 +4,7 @@ This is a __forward test__ script of a __single input image__ for the FastMaskRC
 
 ![Display](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/raw/master/assets/display2.png)
 
----
+
 ## Requirements
 - [Tensorflow (>= 1.0.0)](https://www.tensorflow.org/install/install_linux)
 - [Numpy](https://github.com/numpy/numpy/blob/master/INSTALL.rst.txt)
@@ -19,7 +19,7 @@ This is a __forward test__ script of a __single input image__ for the FastMaskRC
 
 ## Getting Start
 1. It requires you to download the whole repo firstly from https://github.com/CharlesShang/FastMaskRCNN
-2. Add the whole `./forward_test` under the root of the repo; then __replace__ the original `./libs/visualization/pil_utils.py` with the new one in my repo. Downloading the 2 pre-trained models above and place them(with the `./output/mask_rcnn/checkpoint`) as shown below. Finally the folder structure would be:
+2. Add the whole dir `./forward_test` under the root of the repo; then __replace__ the original `./libs/visualization/pil_utils.py` with the new one in my repo. Downloading the 2 pre-trained models above and place them(with the `./output/mask_rcnn/checkpoint`) as shown below. Finally the folder structure would be:
 ```
 root/
 ├── data/pretrained_models/resnet_v1_50.ckpt
@@ -65,6 +65,6 @@ file_pattern = 'jpg'    # or 'png'
 - The `./libs/visualization/pil_utils.py` is modified from [@chen1005](https://github.com/CharlesShang/FastMaskRCNN/issues/26#issuecomment-319184033)'s suggestion
 - The pre-trained Mask-RCNN model from [@QtSignalProcessing](https://github.com/CharlesShang/FastMaskRCNN/issues/107#issuecomment-325446700)
 
-## To Do
-- Fix the bug of [Issues#1-F8](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/1#issuecomment-354413737)
+## To-Do
+- Fix the bug of [Issues#2](https://github.com/MarkMoHR/FastMaskRCNN_ForwardTest/issues/2)
 - Add [DenseCRF](https://github.com/lucasb-eyer/pydensecrf)
